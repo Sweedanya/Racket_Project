@@ -116,8 +116,7 @@ class Login extends PDO_DB {
 
         session_destroy();
         return status_update(1, 'Check your email for the password reset link', "success");
-    
-        }
+    }
 
     public function reset_password($post)
     {
